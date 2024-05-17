@@ -1,0 +1,164 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: Georgia;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 65px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.mainbg {
+    background-image: url("../Images/Login2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left: 22%;
+    padding-top: 2%;
+}
+
+.f1 {
+    padding: 20px;
+    height: 75%;
+    width: 70%;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    justify-content: center;
+}
+
+
+.fh1 {
+    margin-left: 23%;
+    color: grey;
+    font-family: Georgia;
+    font-size: 30px;
+    border-bottom: 5px solid navy;
+    width: 412px;
+}
+
+/* Adjustments to form layout */
+.form1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 20px; /* Gap between columns */
+}
+
+/* Styling for form labels */
+.l1 {
+    color: grey;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.lt1 {
+    color: black;
+    font-family: Georgia;
+    font-size: 18px;
+}
+
+
+/* Styling for form textboxes and dropdowns */
+.t1,
+select {
+    width: 100%; /* Take up full width of column */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid navy;
+    box-sizing: border-box;
+    font-family: Georgia;
+    font-size: 16px;
+    color: navy;
+}
+
+/* Styling for form submit button */
+.b1 {
+    font-size: 18px;
+    height: 40px;
+    width: 25%; /* Take up full width of column */
+    padding: 10px 15px;
+    margin-top: 3px;
+    border: 2px solid navy;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+
+    margin-left:35%;
+}
+
+    .b1:hover {
+        background-color: darkblue;
+    }
+
+/* CSS for inline gender label and radio button */
+/* Override RadioButtonList default styles */
+.radio {
+    display: flex; /* Display as flex container */
+    align-items: center; /* Align items vertically */
+}
+
+    .radio label {
+        display: inline-flex; /* Display label as flex item */
+        align-items: center; /* Align label content vertically */
+        margin-right: 20px; /* Space between radio buttons */
+    }
+
+    /* Hide default RadioButtonList bullets */
+    .radio input[type="radio"] {
+        display: none;
+    }
+
+        /* Custom styling for radio button appearance */
+        .radio input[type="radio"] + label:before {
+            content: '';
+            display: inline-block;
+            width: 10px; /* Adjust size of radio button */
+            height: 10px; /* Adjust size of radio button */
+            border: 2px solid navy; /* Radio button border color */
+            border-radius: 50%; /* Make border circular for radio button */
+            margin-right: 8px; /* Space between radio button and label text */
+        }
+
+        /* Styling for selected radio button */
+        .radio input[type="radio"]:checked + label:before {
+            background-color: navy; /* Color when selected */
+        }
+
+.r1g{
+    color:green;
+    font-family: Georgia;
+    font-size: 16px;
+}
+
+.r1r {
+    color: red;
+    font-family: Georgia;
+    font-size: 16px;
+}
+
+.e1 {
+    color: red;
+    margin-left: 200px;
+    margin-bottom: 1px;
+    border: none;
+    font-size: 20px;
+}

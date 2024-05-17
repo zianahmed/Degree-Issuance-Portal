@@ -1,0 +1,92 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.Img {
+    flex: 60%; 
+    height: 100%;
+    background-image: url('Images/Login.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    flex: 40%; 
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+}
+
+.login-form {
+    margin-left: 30px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.h1c {
+    color: grey;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    border-bottom: 5px solid navy;
+    width: 300px;
+}
+
+.l1 {
+    color: grey;
+    margin-left: 30px;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.t1,
+.b1 {
+    font-size: 18px;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    padding-left: 15px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 2px solid navy;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.b1 {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}
+
+    .b1:hover {
+        background-color: darkblue;
+    }
+
+.err {
+    color: red;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-style:italic;
+    border:none;
+    background-color: white;
+    font-size: 20px;
+}

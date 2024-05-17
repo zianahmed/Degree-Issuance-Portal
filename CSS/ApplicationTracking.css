@@ -1,0 +1,143 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: Georgia;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 65px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.mainbg {
+    background-image: url("../Images/Login2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left: 22%;
+    padding-top: 2%;
+}
+
+.f1 {
+    padding: 20px;
+    height: 75%;
+    width: 70%;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    justify-content: center;
+}
+
+.l1 {
+    color: grey;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.fh1 {
+    margin-left: 27%;
+    color: grey;
+    font-family: Georgia;
+    font-size: 30px;
+    border-bottom: 5px solid navy;
+    width: 337px;
+}
+
+.tb1 {
+    background-color: navy;
+    color: white;
+    font-family: Georgia;
+    font-size: 16px;
+    border-color: navy;
+    border-radius: 2px;
+    justify-self: center;
+}
+
+.t1 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid navy;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-family: Georgia; /* Apply Georgia font */
+    font-size: 16px; /* Adjust font size */
+    color: navy; /* Text color */
+    width: 100%; /* Ensure the table spans full width */
+}
+
+    /* Optional: Style table headings */
+    .t1 th {
+        background-color: navy;
+        color: white;
+        padding: 10px;
+        text-align: left;
+    }
+
+    /* Optional: Style table cells */
+    .t1 td {
+        padding: 8px;
+        text-align: left;
+    }
+
+.b1 {
+    font-size: 18px;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    padding-left: 15px;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    border: 2px solid navy;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.b1 {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}
+
+    .b1:hover {
+        background-color: darkblue;
+    }
+
+
+
+.ft2,
+.fl2
+,.fl3 {
+    background-color: none;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.ft2 {
+    color:grey;
+}
+
+.fl2, .fl3 {
+    color:navy;
+}
+
+.fl3 {
+    margin-left:15%;
+}

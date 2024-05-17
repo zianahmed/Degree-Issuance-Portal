@@ -1,0 +1,164 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: Georgia;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 65px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.mainbg {
+    background-image: url("../Images/Login2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left: 22%;
+    padding-top: 2%;
+    -webkit-justify-content:center;
+    justify-content: center;
+}
+
+.f1 {
+    display:block;
+    padding: 20px;
+    height: 75%;
+    width: 70%;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+}
+
+
+.fh1 {
+    color: grey;
+    font-family: Georgia;
+    font-size: 30px;
+    border-bottom: 5px solid navy;
+    width:fit-content;
+    margin: auto;
+}
+
+
+.b1 {
+    font-size: 18px;
+    align-self:center;
+    margin-top:30px;
+    margin-left: 36%;
+    height: 40px;
+    padding: 10px 15px;
+    border: 2px solid navy;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    
+}
+
+    .b1:hover {
+        background-color: darkblue;
+    }
+
+
+.form1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.l1 {
+    color: grey;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.lt1 {
+    color: black;
+    font-family: Georgia;
+    font-size: 18px;
+}
+
+
+.t1,
+select {
+    width: 100%; 
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid navy;
+    box-sizing: border-box;
+    font-family: Georgia;
+    font-size: 16px;
+    color: navy;
+}
+
+
+.radio {
+    display: flex; 
+    align-items: center; 
+}
+
+    .radio label {
+        display: inline-flex; 
+        align-items: center; 
+        margin-right: 20px; 
+    }
+
+    .radio input[type="radio"] {
+        display: none;
+    }
+
+        .radio input[type="radio"] + label:before {
+            content: '';
+            display: inline-block;
+            width: 10px; 
+            height: 10px; 
+           border: 2px solid navy; 
+            border-radius: 50%; 
+            margin-right: 8px; 
+        }
+
+        .radio input[type="radio"]:checked + label:before {
+            background-color: navy; 
+        }
+
+.r1g {
+    color: green;
+    font-family: Georgia;
+    font-size: 16px;
+}
+
+
+.e1 {
+    color: red;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    border: none;
+    background-color: yellow;
+    font-size: 20px;
+}
+
+.r1r {
+    color: red;
+    font-family: Georgia;
+    font-size: 16px;
+}
